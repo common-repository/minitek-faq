@@ -1,0 +1,92 @@
+/* Admin menu font icon */
+
+@font-face {
+  font-family: 'Μinitek';
+  src:  url('../fonts/minitek.eot?k6ee3r');
+  src:  url('../fonts/minitek.eot?k6ee3r#iefix') format('embedded-opentype'),
+  url('../fonts/minitek.ttf?k6ee3r') format('truetype'),
+  url('../fonts/minitek.woff?k6ee3r') format('woff'),
+  url('../fonts/minitek.svg?k6ee3r#minitek') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#adminmenu #menu-posts-mf_question div.wp-menu-image:before {
+	font-family: 'Μinitek' !important;
+	content: "\e900";
+}
+
+/* User capabilities minitek icon */
+
+.members-cap-tabs .dashicons-minitek-icon::before {
+  font-family: 'Μinitek' !important;
+	content: "\e900";
+}
+
+/* Hide 'Add New Topic' */
+
+#taxonomy-mf_topic #mf_topic-adder {
+	display: none;
+}
+
+/* Settings page */
+
+#mf-admin-settings {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+  font-size: 13px;
+  line-height: 2.1em;
+  margin: 0px;
+  overflow: auto;
+  padding: 15px;
+  position: relative;
+  border-top: none;
+}
+
+#mf-admin-settings-navigation {
+	margin-top: 20px;
+}
+
+#mf-admin-settings-navigation .nav-tab-active {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#mf-admin-settings table.form-table {
+	display: none;
+	margin: 0;
+}
+
+#mf-admin-settings table.form-table tr {
+	border-bottom: 1px solid #eee;
+}
+
+#mf-admin-settings table.form-table th,
+#mf-admin-settings table.form-table td {
+	padding: 12px 10px;
+}
+
+#mf-admin-settings table.form-table th {
+	width: 35%;
+}
+
+#mf-admin-settings p.submit {
+	padding-bottom: 0;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+/* Topics */
+
+.taxonomy-mf_topic .fixed .column-posts {
+	width: 100px;
+}
+
+/* Taxonomy custom fields */
+
+.separator th {
+	line-height: 26px;
+	font-size: 1.3em;
+	padding: 25px 10px !important;
+}
